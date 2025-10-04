@@ -17,3 +17,5 @@ Here are the attribute you need to change so it fit your board:
 <img width="1355" height="30" alt="Screenshot 2025-10-04 193243" src="https://github.com/user-attachments/assets/c2f95181-d082-413c-8931-91f4d09368c3" />
 
 this is most likely all the change you need. For Arduino and lgt8f328p board this is all, for esp32 or stm32 it may be the same or different (i dont have them board).
+
+Note that when using with MC as a power meter the shunt must be at after the load so that the voltage can be measure 
